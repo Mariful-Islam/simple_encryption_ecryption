@@ -19,7 +19,7 @@ def encryption(string):
     result = "".join(map(str, result))
     return result
 
-print(encryption("Siyam"))
+print(encryption())
 
 
 def decryption(num):
@@ -39,4 +39,4 @@ def decryption(num):
     print("".join(d_c))
 
 
-print(decryption(5117464525))
+print(decryption())
